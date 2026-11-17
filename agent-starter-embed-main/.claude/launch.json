@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "frontend",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "pnpm", "dev"],
+      "port": 3000
+    },
+    {
+      "name": "frontend-no-turbo",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "npx", "next", "dev"],
+      "port": 3000
+    }
+  ]
+}
